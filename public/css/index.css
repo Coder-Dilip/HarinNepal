@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+body{
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+
+}
+body::-webkit-scrollbar{
+  width: 0px;
+}
+
+/* navbar */
+
+.hearderBtn>a{
+  text-decoration: none;
+  color: black;
+  margin-left: 20px;
+}
+
+.hearderBtn>a:hover{
+  color:#00b45a
+}
+
+@media only screen and (max-width: 370px) {
+  .hearderBtn>a{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    margin-top: 13px;
+  }
+}
+
+
+
+.navbar-nav{
+ margin: auto;
+}
+
+.nav-item{
+  margin-right: 50px;
+}
+
+.dropdown-menu{
+  box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.07);
+-webkit-box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.07);
+-moz-box-shadow: 0px 0px 15px -3px rgba(0,0,0,0.07);
+max-width: 490px;
+animation-name: dilip;
+animation-duration: .3s;
+}
+
+@keyframes dilip{
+  from {transform: scale(0.5); opacity: 0;}
+  to{transform:scale(1); opacity: 1;}
+}
+
+.dropdown-item{
+  transition: .3s;
+}
+
+.dropdown-item:hover{
+background: #00e774;
+width:95%;
+margin:auto;
+border-radius: 3px;
+transition: .3s;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.donateBtn{
+  background-color: #00e774;
+  outline: none;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 3px;
+  color: white;
+  font-weight: bolder;
+  transition: .3s;
+}
+
+.donateBtn:hover{
+transition: .3s;
+transform: scale(1.05);
+}
+
+.donateBtn:active{
+  background-color: #00b45abe;
+}
+
+
+
+/* landing page */
+
+.my-keen-slider{
+  z-index: -1;
+}
+  
+.keen-slider__slide{
+  width:100%;
+  height: 530px;
+  position: relative;
+}
+
+.keen-slider__slide>img{
+ width:100%;
+ z-index: -1;
+ position: absolute;
+ background-size: cover;
+ height: 530px;
+ object-fit: cover;
+ filter: brightness(0.9);
+}
+
+.keen-slider__slide>div{
+  margin-left: 5%;
+  position: relative;
+  top:40%;
+  animation-name: float;
+  animation-duration: 1s;
+}
+
+.keen-slider__slide>div>p{
+width: 90%;
+max-width: 600px;
+font-size: 1.6rem;
+color: white;
+}
+
+
+@media only screen and (max-width: 550px) {
+  .keen-slider__slide>div{
+    margin-left: 5%;
+    position: relative;
+    top:30%;
+    animation-name: float;
+    animation-duration: 2s;
+  }
+}
+
+@keyframes float{
+
+from{
+transform: translatey(-30px);
+}
+
+to{
+transform: translatey(0px);
+}
+
+}
+
+
+/* services */
+
+.services_container{
+  padding: 30px;
+ box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.04);
+ -webkit-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.04);
+ -moz-box-shadow: 0px 0px 8px 2px rgba(0,0,0,0.04);
+ margin: 30px;
+ max-width: 300px;
+ cursor: pointer;
+ border: 2px solid rgba(0, 0, 0, 0);
+ border-radius: 15px;
+ transition: .3s;
+ ;
+}
+.services_container:hover{
+transform: scale(1.1);
+  transition: .3s;
+}
+
+
+#services_icon{
+  padding: 10px;
+  border-radius: 15px;
+  font-size: 30px !important;
+  margin-bottom: 20px;
+}
+
+.services_title{
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.services_subTitle{
+  width: 95%;
+  max-width: 300px;
+  font-size: 0.8rem;
+}
+
+.services_button,.services_button1,.services_button2{
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  border: 2px solid lightgray;
+  padding: 5px 20px;
+  background: white;
+  cursor: pointer;
+  margin-top: 12px;
+  font-size: 0.7rem;
+  font-weight:normal;
+}
+
+.services_button1:hover{
+  background:#ff954a;
+  color: white;
+  border-color: #ff954a;
+  transition: .3s;
+}
+
+.services_button2:hover{
+  background:#b14aff;
+  color: white;
+  border-color: #b14aff;
+  transition: .3s;
+}
+
+.services_button:hover{
+  background:#008bfc;
+  color: white;
+  border-color: #008bfc;
+  transition: .3s;
+}
+
+
+.subTitle{
+  font-size: 2.8rem;
+  text-align: center;
+  font-weight: normal;
+}
+
+/* fontWeight:'bold',fontSize:width>500?'2.5rem':'1.8rem',textAlign:'center',position:'relative',left:width<500?'-20px':'0' */
+
+@media only screen and (max-width: 542px){
+.subTitle{
+font-size: 1.8rem;
+text-align: center;
+font-weight: normal;
+position: relative;
+left: -20px;
+}
+}
+
+
+
+/* footer */
+
+#footer_icons{
+  position:relative;top:3px;
+
+}
+@media only screen and (max-width: 570px){
+  #footer_icons{
+position: relative;
+top:8px;
+left:-10px
+  }
+  }
+
+  #copyright{
+margin-top: 15px;
+  }
+
+
