@@ -11,6 +11,10 @@ body::-webkit-scrollbar{
 
 /* navbar */
 
+a{
+  font-weight: bold
+}
+
 .hearderBtn>a{
   text-decoration: none;
   color: black;
@@ -191,6 +195,7 @@ transform: scale(1.1);
   width: 95%;
   max-width: 300px;
   font-size: 0.8rem;
+  
 }
 
 .services_button,.services_button1,.services_button2{
@@ -230,11 +235,25 @@ transform: scale(1.1);
 
 .subTitle{
   font-size: 2.8rem;
+  /* text-align: center; */
+  font-weight: normal;
+  margin-top: 70px;
+  font-weight: bold;
+}
+.subTitle2{
+  font-size: 2.8rem;
   text-align: center;
   font-weight: normal;
+  margin-top: 70px;
+  font-weight: bold;
 }
 
 /* fontWeight:'bold',fontSize:width>500?'2.5rem':'1.8rem',textAlign:'center',position:'relative',left:width<500?'-20px':'0' */
+
+.intro_subtitle{
+  max-width: 800px;
+  text-align: center;
+}
 
 @media only screen and (max-width: 542px){
 .subTitle{
@@ -243,8 +262,27 @@ text-align: center;
 font-weight: normal;
 position: relative;
 left: -20px;
+font-weight: bold;
+}
+
+.subTitle2{
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 70px;
+  font-weight: bold; 
+  margin-bottom: 30px;
+}
+
+.intro_subtitle{
+  max-width: 800px;
+  text-align: left;
+  width: 95%;
+  margin: auto;
 }
 }
+
+
 
 
 

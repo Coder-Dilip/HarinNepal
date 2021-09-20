@@ -9,6 +9,7 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/keen-slider@5.5.0/keen-slider.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
   <link rel="stylesheet" href="{{asset('css/index.css')}}">
 </head>
@@ -33,7 +34,7 @@
   </header>
   <nav  class="navbar navbar-expand-lg navbar-light bg-white" style="position:sticky;top:0;z-index:100">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Logo.</a>
+      <a class="navbar-brand" href="/">Logo.</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -77,7 +78,7 @@
             <a class="nav-link" href="#">Blogs</a>
           </li>
         </ul>
-        <button type="button" class="donateBtn" >Donate</button>
+        <button type="button" class="donateBtn" >Contact</button>
       </div>
     </div>
   </nav>
@@ -112,14 +113,26 @@
     </div>
   </div>
 
+  {{-- Welcome section --}}
+
+  <div style="width:90%;display:flex;flex-direction:column;align-items:center;margin:auto">
+    <p  class="subTitle2" >Welcome to <span style="color: #00e774">Harin Nepal</span></p>
+    <p style='text-align:center;width:90%;max-width:800px;margin:auto;margin-top:-20px;font-size:1.3rem;font-weight:bold;opacity:0.8;margin-bottom:20px'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, itaque!</p>
+<div data-aos="fade-right"
+data-aos-duration="2000"
+     >
+     <p class="intro_subtitle">Harin Nepal is a leading environmental NGO in Nepal. Our sole objective is to create a greener and better world for present and future generations. We are working on our various projects to nullify the environmental imbalance caused by us and our society at large.</p>
+     <button class="donateBtn" style="display:block;margin:auto">Read more</button>
+</div>
+  </div>
 
 
-  <div style="margin:auto;width:100%; margin-top:50px">
-    <p class='subTitle'>About HarinNepal</p>
+  <div  style="width:100%;display:flex;flex-direction:column;align-items:center">
+    <p class="subTitle2" style="margin-top: 70px">Destination</p>
  <div class='blurServices' style="display:flex; flex-wrap:wrap; justify-content:center">
 
      <div class='services_container'>
-      <i class="fas fa-phone-alt" id='services_icon' style="background:#d9f3ff;color:#008bfc"></i>
+      <i class="fas fa-globe-europe" id='services_icon' style="background:#d9f3ff;color:#008bfc"></i>
      
 <p class='services_title'>Mission</p>
 <p class='services_subTitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere quas consectetur.</p>
@@ -127,15 +140,17 @@
      </div>
 
      <div class='services_container'>
-      <i class="fas fa-phone-alt" id='services_icon' style="background:#ffeadb;color:#ff954a"></i>
+      <i class="fas fa-bullseye" id='services_icon' style="background:#ffeadb;color:#ff954a"></i>
       
+
+
 <p class='services_title'>Vision</p>
 <p class='services_subTitle'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero sunt adipisci repellat..</p>
 <button class='services_button1'>Get support</button>
      </div>
 
      <div class='services_container'>
-      <i class="fas fa-phone-alt" id='services_icon' style="background:#f2e1ff;color:#b14aff"></i>
+      <i class="fas fa-map-marker-alt" id='services_icon' style="background:#f2e1ff;color:#b14aff"></i>
 <p class='services_title'>Objective</p>
 <p class='services_subTitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, molestiae obcaecati.</p>
 <button class='services_button2'>Explore</button>
@@ -143,8 +158,22 @@
  </div>
  </div>
 
+ {{-- NewsLetter --}}
+<div id="newsletter" style="margin-top: 70px;margin-bottom:70px;display:flex;flex-direction:column;align-items:center">
+<p style="opacity: 0.6; text-align:center">Stay Updated!</p>
+<p class="subTitle2" style="margin-top: -10px">Subscribe to our Newsletter</p>
+<p style="text-align:center;margin-top:-10px">Sign up to stay informed about the latest News form our organization</p>
+<div style="display:flex;align-items:center;margin-top:10px">
+  <input type="text" placeholder="Enter your email" style="padding: 15px 20px; border:none;box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.06);
+  -webkit-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.06);-moz-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.06);;outline:none">
+<button class="donateBtn" style="border-radius: 0px;padding: 15px 20px">Subscribe</button>
+</div>
+</div>
 
-<div style="background-color:rgb(0, 36, 24);margin-top:50px;padding:20px">
+
+
+
+<div id="footer" style="background-color:rgb(0, 36, 24);margin-top:70px;padding:20px">
   <footer style='margin:5px;display:flex;align-items:center; justify-content:start;flex-wrap:wrap'>
 
       <div style='display:flex;align-items:center;margin-right:50px'>
@@ -163,7 +192,6 @@
 <a href=""><i style="color:white" class="fab fa-instagram"></i></a>
 <a href=""><i style="color:white" class="fab fa-youtube"></i></a>
 </div>
-
 </footer>
 <div style="min-width:30px;margin-left:15px; color:white" id='copyright'>Copyright 2021 Harin Nepal. All Rights Reserved</div>
 </div>
@@ -171,6 +199,7 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/keen-slider@5.5.0/keen-slider.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="./script.js"></script>
   <script src="https://kit.fontawesome.com/1255cf201d.js" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>

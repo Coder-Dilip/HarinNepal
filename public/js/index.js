@@ -1,3 +1,5 @@
+// landing page slider
+
 var sliderElement = document.getElementById("my-keen-slider")
 var interval = 0
 function autoplay(run) {
@@ -27,5 +29,10 @@ sliderElement.addEventListener("mouseout", () => {
   autoplay(true)
 })
 autoplay(true)
+
+
+// animate on scroll
+ AOS.init();
+
 
 
