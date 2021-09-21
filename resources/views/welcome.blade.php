@@ -32,7 +32,7 @@
 <a href=""><i class="fab fa-youtube"></i></a>
     </div>
   </header>
-  <nav  class="navbar navbar-expand-lg navbar-light bg-white" style="position:sticky;top:0;z-index:100">
+  <nav  class="navbar navbar-expand-lg navbar-light bg-white" style="position:sticky;top:0;z-index:100;width:100%">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">Logo.</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
@@ -115,20 +115,67 @@
 
   {{-- Welcome section --}}
 
-  <div style="width:90%;display:flex;flex-direction:column;align-items:center;margin:auto">
+  <div style="width:90%;display:flex;flex-direction:column;align-items:center;margin:auto;margin-bottom:80px;margin-top:80px">
     <p  class="subTitle2" >Welcome to <span style="color: #00e774">Harin Nepal</span></p>
     <p style='text-align:center;width:90%;max-width:800px;margin:auto;margin-top:-20px;font-size:1.3rem;font-weight:bold;opacity:0.8;margin-bottom:20px'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, itaque!</p>
 <div data-aos="fade-right"
 data-aos-duration="2000"
      >
      <p class="intro_subtitle">Harin Nepal is a leading environmental NGO in Nepal. Our sole objective is to create a greener and better world for present and future generations. We are working on our various projects to nullify the environmental imbalance caused by us and our society at large.</p>
-     <button class="donateBtn" style="display:block;margin:auto">Read more</button>
+     <button class="donateBtn" style="display:block;margin:auto;margin-top:20px">Read more</button>
 </div>
   </div>
 
 
+ {{-- initiatives --}}
+ <div style="width:100%;display:flex;align-items:center;flex-wrap:wrap;justify-content:center;margin-bottom:80px;overflow-x:hidden">
+  <p  class="subTitle2" style="margin-bottom: 70px" >our Popular <span style="color: #00e774">Initiatives</span></p>
+  <div style="width:90%; max-width:1000px;margin:auto;">
+
+<div data-aos="fade-left"
+class="initiative_card"
+style="display:flex;width:100%;align-items:center;flex-wrap:wrap; margin-bottom:80px"
+data-aos-duration="2000"
+   >
+   <img src="images/save-nijgad.jpg" style="width: 90%; max-width:400px; height:auto" alt="">
+   <div class="initiative_description" style="max-width:400px; margin-top:30px">
+    <h2 style="font-weight: bold" >Save Nijgadh</h2>
+    <p style="margin-top: 10px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, tenetur. Nesciunt nam quis nisi architecto quae vero atque aut temporibus perspiciatis? Quas, ipsum quo?</P>
+      <button class="donateBtn" id='details' style="display:block;margin-bottom:10px">Details</button>
+    </div>
+</div>
+
+<div data-aos="fade-right"
+class="initiative_card"
+style="display:flex;width:100%;align-items:center;flex-wrap:wrap; margin-bottom:80px"
+data-aos-duration="2000"
+   >
+   <img src="images/oxygen.jpg" style="width: 90%; max-width:400px; height:auto" alt="">
+   <div class="initiative_description" style="max-width:400px; margin-top:30px">
+    <h2 style="font-weight: bold;" >Oxygen is my Birthright</h2>
+    <p style="margin-top: 10px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, tenetur. Nesciunt nam quis nisi architecto quae vero atque aut temporibus perspiciatis? Quas, ipsum quo?</P>
+      <button class="donateBtn" id='details' style="display:block;margin-bottom:10px">Details</button>
+    </div>
+  </div>
+
+<div data-aos="fade-left"
+class="initiative_card"
+style="display:flex;width:100%;align-items:center;flex-wrap:wrap; margin-bottom:80px"
+data-aos-duration="2000"
+   >
+   <img src="images/climate-change.jpg" style="width: 90%; max-width:400px; height:auto" alt="">
+   <div class="initiative_description" style="max-width:400px; margin-top:30px">
+    <h2 style="font-weight: bold" >Climate Change Discussion</h2>
+    <p style="margin-top: 10px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, tenetur. Nesciunt nam quis nisi architecto quae vero atque aut temporibus perspiciatis? Quas, ipsum quo?</P>
+      <button class="donateBtn" id='details' style="display:block;margin-bottom:10px">Details</button>
+    </div>
+</div>
+
+</div>
+</div>
+
   <div  style="width:100%;display:flex;flex-direction:column;align-items:center">
-    <p class="subTitle2" style="margin-top: 70px">Destination</p>
+    <p class="subTitle2" style="margin-top: 80px">Destination</p>
  <div class='blurServices' style="display:flex; flex-wrap:wrap; justify-content:center">
 
      <div class='services_container'>
@@ -158,12 +205,13 @@ data-aos-duration="2000"
  </div>
  </div>
 
+
  {{-- NewsLetter --}}
-<div id="newsletter" style="margin-top: 70px;margin-bottom:70px;display:flex;flex-direction:column;align-items:center">
+<div id="newsletter" style="margin-top: 80px;margin-bottom:80px;display:flex;flex-direction:column;align-items:center;">
 <p style="opacity: 0.6; text-align:center">Stay Updated!</p>
 <p class="subTitle2" style="margin-top: -10px">Subscribe to our Newsletter</p>
 <p style="text-align:center;margin-top:-10px">Sign up to stay informed about the latest News form our organization</p>
-<div style="display:flex;align-items:center;margin-top:10px">
+<div style="display:flex;align-items:center;justify-content:center;margin-top:10px">
   <input type="text" placeholder="Enter your email" style="padding: 15px 20px; border:none;box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.06);
   -webkit-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.06);-moz-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.06);;outline:none">
 <button class="donateBtn" style="border-radius: 0px;padding: 15px 20px">Subscribe</button>
@@ -173,15 +221,15 @@ data-aos-duration="2000"
 
 
 
-<div id="footer" style="background-color:rgb(0, 36, 24);margin-top:70px;padding:20px">
+<div id="footer" style="background-color:rgb(0, 36, 24);margin-top:80px;padding:20px">
   <footer style='margin:5px;display:flex;align-items:center; justify-content:start;flex-wrap:wrap'>
 
-      <div style='display:flex;align-items:center;margin-right:50px'>
+      <div style='display:flex;align-items:center;margin-right:80px'>
         <i class="fas fa-phone-alt" style="padding-left:10px;padding-top:10px;padding-right:10px; color:white"></i>
 <p style="position: relative;top:13px;color:white">0134525</p>
       </div>
 
-      <div style='display:flex;align-items:center;position:relative; top:-2px;margin-right:50px'>
+      <div style='display:flex;align-items:center;position:relative; top:-2px;margin-right:80px'>
         <i class="far fa-envelope-open" style="padding-left:10px;padding-top:10px;padding-right:10px; color:white"></i>
 <p style="position: relative;top:13px;color:white">info@harinnepal.com</p>
       </div>
@@ -195,8 +243,6 @@ data-aos-duration="2000"
 </footer>
 <div style="min-width:30px;margin-left:15px; color:white" id='copyright'>Copyright 2021 Harin Nepal. All Rights Reserved</div>
 </div>
-
-
 
   <script src="https://cdn.jsdelivr.net/npm/keen-slider@5.5.0/keen-slider.min.js"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

@@ -1,6 +1,7 @@
 // landing page slider
 
 var sliderElement = document.getElementById("my-keen-slider")
+var elements = document.querySelectorAll(".keen-slider__slide")
 var interval = 0
 function autoplay(run) {
   clearInterval(interval)
@@ -20,6 +21,7 @@ var slider = new KeenSlider(sliderElement, {
   dragEnd: () => {
     autoplay(true)
   },
+ 
 })
 
 sliderElement.addEventListener("mouseover", () => {

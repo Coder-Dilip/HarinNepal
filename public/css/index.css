@@ -7,6 +7,7 @@ body{
 }
 body::-webkit-scrollbar{
   width: 0px;
+  overflow-x: hidden;
 }
 
 /* navbar */
@@ -280,6 +281,54 @@ font-weight: bold;
   width: 95%;
   margin: auto;
 }
+}
+
+/* initiatives card
+ */
+.initiative_card{
+  justify-content:space-evenly;
+
+}
+.initiative_card:nth-child(even){
+  justify-content:space-evenly;
+  flex-direction: row-reverse;
+}
+
+.initiative_description{
+  text-align: center;
+}
+
+#details{
+display: block;    
+margin: auto;
+}
+
+@media only screen and (max-width:905px){
+
+  .initiative_card:nth-child(even){
+  justify-content:left;
+}
+  .initiative_card{
+    justify-content:center;
+    flex-direction: row;
+  }
+
+  .initiative_description{
+    text-align: left;
+  }
+
+#details{
+  margin: 0;
+}  
+}
+@media only screen and (max-width:484px){
+  .initiative_card:nth-child(even){
+  justify-content:left;
+}
+  .initiative_card{
+    justify-content:left;
+    flex-direction: row;
+  }
 }
 
 
