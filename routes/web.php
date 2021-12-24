@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +14,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::get('/', function(){
+   return view('harin');
+});
+
+Route::get('/intro', function(){
+   return view('intro');
+});
+
+Route::get('/initiatives/save-nijgadh', function(){
+   return view('savenijgadh');
+});
+
+Route::get('/initiatives', function(){
+   return view('initiatives');
 });
