@@ -11,9 +11,12 @@ class initiatives_card extends Component
      *
      * @return void
      */
-    public function __construct()
+    public $key="";
+    public function __construct($keyElement)
     {
         //
+    $this->key=$keyElement;
+    
     }
 
     /**
