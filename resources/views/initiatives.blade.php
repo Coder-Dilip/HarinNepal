@@ -65,6 +65,8 @@
     padding: 3px 15px 4px;
     margin: 0 0 5px;
     border-radius: 0 5px 5px 0;
+    position: relative;
+    top:-90%
 }
 .box .post{
     color: #fff;
@@ -113,41 +115,67 @@
 @media only screen and (max-width:990px){
     .box{ margin: 0 0 30px; }
 }
+@media only screen and (min-width:990px){
+    .box{
+        margin: 30px
+     }
+}
 </style>
 <body>
-    This is freaking initiatives
-    {{-- <div style="display: flex;flex-wrap:wrap;justify-content:space-evenly; margin:auto; max-width:1500px">
-
-    </div> --}}
-
-    <div class="container">
+   
+<h2 style="font-weight:bold; text-align:center; margin-top:100px; margin-bottom:100px">Our Initiatives</h2>
+    <div class="container" style="display: flex; flex-wrap:wrap; margin:auto">
         <div class="row">
             <div class="col-md-4 col-sm-6">
                 <div class="box">
-                    <img src="https://www.creativefabrica.com/wp-content/uploads/2020/05/01/Background-with-forest-illustration-Graphics-4005399-1.jpg">
+                    <img src="images/nijgadh.png">
                     <div class="box-content">
-                        <h3 class="title">Williamson</h3>
+                        <h3 class="title">Save Nijgadh</h3>
                         <span class="post">Web designer</span>
                     </div>
                     <ul class="icon">
                         <li><a href="#"><i class="fa fa-search"></i></a></li>
-                        <li><a href="#"><i class="fa fa-link"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+           
+            <div class="col-md-4 col-sm-6">
+                <div class="box">
+                    <img src="images/oxygen.png">
+                    <div class="box-content">
+                        <h3 class="title">Oxygen is my Birthright</h3>
+                        <span class="post">Web designer</span>
+                    </div>
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6">
                 <div class="box">
-                    <img src="https://images-na.ssl-images-amazon.com/images/I/51L--KMbvsL._SL1000_.jpg">
+                    <img src="images/climate.png">
                     <div class="box-content">
-                        <h3 class="title">Miranda Roy</h3>
+                        <h3 class="title">Climate Change Discussion</h3>
                         <span class="post">Web designer</span>
                     </div>
                     <ul class="icon">
                         <li><a href="#"><i class="fa fa-search"></i></a></li>
-                        <li><a href="#"><i class="fa fa-link"></i></a></li>
                     </ul>
                 </div>
             </div>
+            <div class="col-md-4 col-sm-6">
+                <div class="box">
+                    <img src="images/strike.png">
+                    <div class="box-content">
+                        <h3 class="title">Climate Strike</h3>
+                        <span class="post">Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci deserunt, rem optio vel dicta fugit nam dolore cumque tenetur a est at dolorem!</span>
+                    </div>
+                    <ul class="icon">
+                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+           
         </div>
     </div>
     <x-footer />
