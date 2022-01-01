@@ -1,0 +1,33 @@
+@keyframes animate_initiativess{
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(120px);
+        -moz-transform: translateY(120px);
+        transform: translateY(120px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes animate_img{
+    0% {
+        opacity: 0;
+      
+    }
+    100% {
+        opacity: 1;
+        
+    }
+}
+
+.animate_initiatives{
+    animation: animate_initiativess 2s ;
+}
+
+.initiatives_img{
+    animation: animate_img 1.5s ;
+}

@@ -147,7 +147,7 @@
                         <span class="post">Web designer</span>
                     </div>
                     <ul class="icon">
-                        <li><a href="#"><i class="fa fa-search"></i></a></li>
+                        <li><a href="/initiatives/oxygen-is-my-birthright"><i class="fa fa-search"></i></a></li>
                     </ul>
                 </div>
             </div>

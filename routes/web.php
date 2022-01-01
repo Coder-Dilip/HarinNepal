@@ -26,6 +26,10 @@ Route::get('/initiatives/save-nijgadh', function(){
    return view('savenijgadh');
 });
 
+Route::get('/initiatives/oxygen-is-my-birthright', function(){
+   return view('oxygen_is_my_birthright');
+});
+
 Route::get('/initiatives', function(){
    return view('initiatives');
 });
