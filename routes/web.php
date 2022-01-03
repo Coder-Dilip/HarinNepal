@@ -22,6 +22,10 @@ Route::get('/intro', function(){
    return view('intro');
 });
 
+Route::get('/initiatives', function(){
+   return view('initiatives');
+});
+
 Route::get('/initiatives/save-nijgadh', function(){
    return view('savenijgadh');
 });
@@ -30,6 +34,10 @@ Route::get('/initiatives/oxygen-is-my-birthright', function(){
    return view('oxygen_is_my_birthright');
 });
 
-Route::get('/initiatives', function(){
-   return view('initiatives');
+Route::get('/initiatives/climate-strike-nepal', function(){
+   return view('climate_strike_nepal');
+});
+
+Route::get('initiatives/jalwayu-pariwartan-bare-chalfal', function(){
+   return view('climate_change_discussion');
 });

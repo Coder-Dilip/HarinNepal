@@ -9,9 +9,10 @@
     <x-header />
 </head>
 <body style="overflow-x: hidden">
+    
 <div style="max-width: 1500px; margin:auto; display:flex;margin-top:40px;position:relative;justify-content:center; flex-wrap:wrap">
     <div style="margin-left:5%;margin-right:5%;width:90%;display:flex;justify-content:center;position:relative;flex-wrap:wrap;align-items:center;flex-direction:column">
-        <img class="initiatives_img" src="/images/hero1.png" alt="" style="width:90%;height:auto;border-radius:5px;margin:auto;min-height:200px">
+        <img class="initiatives_img" src="/images/save-nijgad.jpg" alt="" style="width:90%;height:auto;border-radius:5px;margin:auto;min-height:200px">
         <div class="animate_initiatives" style="position: absolute;width:70%;margin-top:2%">
             <h2 style="text-align:left;display:block;font-weight:bold;color:white">Save Nijgadh</h2>
             <p style="text-align:left;display:block;margin-top:20px;max-width:500px;color:white;font-size:1.3rem">Construction of Nijgadh International Airport may be the reason for mass extinction.</p>
@@ -22,8 +23,28 @@
 <br>
         <p style="max-width:90%;text-align: justify;margin-top:30px;font-size:1.3rem">The forest is also home to 500 species of birds, 23 endangered flora, and 22            endangered wildlife species like Giant Hornbill. The cutting  of such a large number of trees from a single area could lead to as much as 650 million cubic metre more of rain water not being absorbed by the forest anymore (10 million cubic water at any time will cover a width of 2 km, a length of 2 km, and a depth of 8 feet).Though the Government of Nepal claims to plant trees at the ratio of 25:1 as a compensatory plantation, but lossed biodiversity won't be restored. <span><strong>Humans can create greenery, not a Forest.</strong></span></p>
         <br>
-        <p style="max-width:90%;text-align: justify;margin-top:50px;font-size:1.3rem;font-weight:bold">Acknowledging the fact that this project is an eco- disaster,  We along with few environment alliances in Nepal have initiated “Save Nijgadh” Campaign back in 2018. The campaign demands:</p>
-
+        <div id="my-keen-slider" class="keen-slider" style="margin-top: 20px; max-width:1700px; margin:auto;width:90%;margin-left:1%;margin-right:5%">
+            
+            <div class="keen-slider__slide">
+                <div style="position: absolute">
+                </div>
+                <img src="/images/hero1.png" alt="">
+            </div>
+            <div class="keen-slider__slide">
+              <div style="position: absolute">
+                
+                
+            </div>
+            <img src="/images/hero2.jpg" alt="">
+        </div>
+        <div class="keen-slider__slide">
+            <div style="position: absolute">
+            </div>
+            <img src="/images/hero3.jpg" alt="">
+            
+        </div>
+    </div>
+    <p style="max-width:90%;text-align: justify;margin-top:50px;font-size:1.3rem;font-weight:bold">Acknowledging the fact that this project is an eco- disaster,  We along with few environment alliances in Nepal have initiated “Save Nijgadh” Campaign back in 2018. The campaign demands:</p>
     <img src="/images/harin-info.png" style="width: 90%;height:auto;margin-top:70px;margin-bottom:100px">
     <p><span><h3 style="font-weight: bold; text-decoration:underline">Activities and Outcomes of Save Nijgadh</h3></span>
 <br>

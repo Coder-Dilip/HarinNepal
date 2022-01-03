@@ -52,8 +52,8 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="border:2px solid rgba(0, 0, 0, 0)">
               <li><a class="dropdown-item" href="/initiatives/save-nijgadh">Save Nijgadh</a></li>
               <li><a class="dropdown-item" href="/initiatives/oxygen-is-my-birthright">Oxygen is my Birthright</a></li>
-              <li><a class="dropdown-item" href="#">Climate Change Discussion</a></li>
-              <li><a class="dropdown-item" href="#">Climate Strike</a></li>
+              <li><a class="dropdown-item" href="/initiatives/jalwayu-pariwartan-bare-chalfal">Jalwayu Pariwartan Bare Chalfal</a></li>
+              <li><a class="dropdown-item" href="/initiatives/climate-strike-nepal">Climate Strike</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
