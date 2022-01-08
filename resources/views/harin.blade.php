@@ -115,8 +115,8 @@ data-aos-duration="2000"
       <i class="fas fa-globe-europe" id='services_icon' style="background:#d9f3ff;color:#008bfc"></i>
      
 <p class='services_title'>Mission</p>
-<p class='services_subTitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere quas consectetur.</p>
-<button class='services_button'>Intro</button>
+<p class='services_subTitle' style="text-align: left">The mission of this coalition is to mobilize youth communities  to ensure social equity, shared prosperity & environment integrity in Nepal.</p>
+<button class='services_button'><a href="/intro" style="text-decoration: none; color:black">Intro</a> </button>
      </div>
 
      <div class='services_container'>
@@ -125,15 +125,15 @@ data-aos-duration="2000"
 
 
 <p class='services_title'>Vision</p>
-<p class='services_subTitle'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero sunt adipisci repellat..</p>
-<button class='services_button1'>Get support</button>
+<p class='services_subTitle' style="text-align: left">The goal of this coalition is to put moral pressure on the Government to take vital, ambitious and urgent climate action, to scrutinize their activities to ensure climate justice.</p>
+<button class='services_button1'><a href="/donate" style="text-decoration: none; color:black">Support Us</a></button>
      </div>
 
      <div class='services_container'>
       <i class="fas fa-map-marker-alt" id='services_icon' style="background:#f2e1ff;color:#b14aff"></i>
 <p class='services_title'>Objective</p>
-<p class='services_subTitle'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, molestiae obcaecati.</p>
-<button class='services_button2'>Explore</button>
+<p class='services_subTitle'>To Increase the awareness among the people and minimize the causes of pollution, deforestation and unplanned urbanization. </p>
+<button class='services_button2'><a href="/initiatives" style="text-decoration: none; color:black"> Our work</a></button>
      </div>
  </div>
  </div>

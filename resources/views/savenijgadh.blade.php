@@ -28,19 +28,19 @@
             <div class="keen-slider__slide">
                 <div style="position: absolute">
                 </div>
-                <img src="/images/hero1.png" alt="">
+                <img src="/images/nijgadh1 (1).jpg" alt="">
             </div>
             <div class="keen-slider__slide">
               <div style="position: absolute">
                 
                 
             </div>
-            <img src="/images/hero2.jpg" alt="">
+            <img src="/images/nijgadh1 (2).jpg" alt="">
         </div>
         <div class="keen-slider__slide">
             <div style="position: absolute">
             </div>
-            <img src="/images/hero3.jpg" alt="">
+            <img src="/images/nijgadh1 (3).jpg" alt="">
             
         </div>
     </div>
