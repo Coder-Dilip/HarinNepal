@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Subscribers;
 use Illuminate\Support\Facades\Route;
 
 
@@ -22,6 +23,10 @@ Route::get('/intro', function(){
    return view('intro');
 });
 
+Route::get('/donate', function(){
+   return view('donation');
+});
+
 Route::get('/initiatives', function(){
    return view('initiatives');
 });
@@ -41,3 +46,5 @@ Route::get('/initiatives/climate-strike-nepal', function(){
 Route::get('initiatives/jalwayu-pariwartan-bare-chalfal', function(){
    return view('climate_change_discussion');
 });
+
+Route::post('/newsletter',[Subscribers::class, "add_subscribers"]);

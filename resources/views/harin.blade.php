@@ -25,21 +25,21 @@
     <div class="keen-slider__slide">
       <div style="position: absolute">
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptate facilis odio!</p>
-  <button class="donateBtn">Donate</button>
+  <button class="donateBtn"><a href="/donate" style="text-decoration:none; color:white">Donate</a></button>
       </div>
       <img src="images/hero1.png" alt="">
     </div>
     <div class="keen-slider__slide">
       <div style="position: absolute">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptate facilis odio!</p>
-        <button class="donateBtn">Donate</button>
+        <button class="donateBtn"><a href="/donate" style="text-decoration:none; color:white">Donate</a></button>
             </div>
       <img src="images/hero2.jpg" alt="">
     </div>
     <div class="keen-slider__slide">
       <div style="position: absolute">
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptate facilis odio!</p>
-  <button class="donateBtn">Donate</button>
+  <button class="donateBtn"><a href="/donate" style="text-decoration:none; color:white">Donate</a></button>
       </div>
       <img src="images/hero3.jpg" alt="">
 
@@ -145,9 +145,12 @@ data-aos-duration="2000"
 <p class="subTitle2" style="margin-top: -10px">Subscribe to our Newsletter</p>
 <p style="text-align:center;margin-top:-10px">Sign up to stay informed about the latest News form our organization</p>
 <div style="display:flex;align-items:center;justify-content:center;margin-top:10px">
-  <input type="text" placeholder="Enter your email" style="padding: 15px 20px; border:none;box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.06);
+  <form method="POST" action="/newsletter">
+    @csrf
+  <input required name="add_user" type="email" placeholder="Enter your email" style="padding: 15px 20px; border:none;box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.06);
   -webkit-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.06);-moz-box-shadow: 0px 5px 6px 0px rgba(0,0,0,0.06);;outline:none">
-<button class="donateBtn" style="border-radius: 0px;padding: 15px 20px">Subscribe</button>
+<button type="submit" class="donateBtn" style="border-radius: 0px;padding: 15px 20px">Subscribe</button>
+  </form>
 </div>
 </div>
 
